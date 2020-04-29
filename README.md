@@ -11,4 +11,4 @@ SpringCloud Hoxton+SpringCloud alibaba新版本教程
 - 服务总线Bus改为Nacos
 
 
-## 具体教程请参考 https://www.5220java.com
+## 具体教程请参考 https://www.520java.com
