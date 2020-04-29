@@ -1,0 +1,24 @@
+{
+  "name" : "Payment",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "serial",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.i520java.springcloud",
+  "savePath" : "./cloud-provider-payment8001/src/main/java/com/i520java/springcloud",
+  "saveModelName" : "cloud-provider-payment8001"
+}
