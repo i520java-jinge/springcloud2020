@@ -20,3 +20,12 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.i520java.springcloud.entities
 
+
+
+eureka:
+  client:
+    register-with-eureka: true #是否将自己本身注册到注册中心中
+    fetch-registry: true  #false表示当前本身就是注册中心 职责是维护实例 不做检索服务
+    serviceUrl:
+      ## defaultZone: http://localhost:7001/eureka  # 单击版本
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka #集群注册

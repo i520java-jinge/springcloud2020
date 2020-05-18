@@ -13,6 +13,19 @@
 
     <dependencies>
 
+        <!--eureka client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!-- 依赖公共组件模块-->
+        <dependency>
+            <artifactId>cloud-api-commons</artifactId>
+            <groupId>com.i520java</groupId>
+            <version>${project.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

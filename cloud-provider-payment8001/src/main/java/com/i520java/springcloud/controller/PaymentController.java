@@ -73,7 +73,7 @@ public class PaymentController {
      *              更多教程请访问 https://www.520java.com 交流学习
      **/
     @PostMapping("/create")
-    public CommentResult  create(Payment payment){
+    public CommentResult  create(@RequestBody  Payment payment){
         payment = this.paymentService.insert(payment);
         if(payment!=null){
             log.info("************插入数据成功:");
