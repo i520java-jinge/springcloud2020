@@ -1,45 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7142ebf-5f48-496e-9a8d-2ba36d418a2b" name="Default Changelist" comment="更新">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/i520java/springcloud/euraka/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/i520java/springcloud/euraka/EurekaMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/application.yaml" afterDir="false" />
+    <list default="true" id="c7142ebf-5f48-496e-9a8d-2ba36d418a2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/cloud-customer-order80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/src/main/java/com/i520java/springcloud/ZkOrderMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/src/main/java/com/i520java/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/src/main/java/com/i520java/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/target/classes/META-INF/cloud-customer-order80.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/target/classes/com/i520java/springcloud/OrderMain80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/target/classes/com/i520java/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/target/classes/com/i520java/springcloud/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/PamentMain8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/i520java.util/I520JavaBase64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/i520java.util/I520JavaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/i520java/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/i520java/springcloud/dao/PaymentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/i520java/springcloud/i520java/util/I520JavaBase64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/i520java/springcloud/i520java/util/I520JavaPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/i520java/springcloud/service/PaymentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/i520java/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/mapper/PaymentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/i520java/springcloud/PamentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/i520java/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/i520java/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/i520java/springcloud/i520java.util/I520JavaBase64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/i520java/springcloud/i520java.util/I520JavaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/i520java/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/i520java/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/i520java/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/i520java/springcloud/dao/PaymentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/i520java/springcloud/i520java/util/I520JavaBase64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/i520java/springcloud/i520java/util/I520JavaPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/i520java/springcloud/service/PaymentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/i520java/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/mapper/PaymentDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/OrderMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/comments/CommentResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/i520java/springcloud/comments/CommentResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/entity/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/target/classes/com/i520java/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/target/classes/com/i520java/springcloud/OrderMain80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/target/classes/com/i520java/springcloud/comments/CommentResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/target/classes/com/i520java/springcloud/entity/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/i520java/springcloud/PamentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/i520java/springcloud/PamentMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/i520java/springcloud/comments/CommentResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/i520java/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/i520java/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/i520java/springcloud/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/i520java/springcloud/entity/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/i520java/springcloud/PamentMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/i520java/springcloud/PamentMain8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/i520java/springcloud/comments/CommentResult.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/i520java/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/i520java/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/i520java/springcloud/entity/Payment.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +153,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3270925" />
-    <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.MainSetting" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -174,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaMain7002">
+  <component name="RunManager" selected="Spring Boot.ZkOrderMain80">
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server7001" />
       <extension name="coverage">
@@ -221,8 +241,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PamentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.i520java.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.springcloud.PamentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PamentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.springcloud.PamentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZkOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-customer-zkorder80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.i520java.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.springcloud.ZkOrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ZkOrderMain80" />
+        <item itemvalue="Spring Boot.PamentMain8002" />
         <item itemvalue="Spring Boot.PamentMain8001" />
         <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
@@ -232,17 +287,17 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.26661798" />
+        <option name="contentProportion" value="0.25785244" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8c613cf6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4e186aa1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8c613cf6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3129f1bf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4e186aa1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@34aadbdc" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -265,7 +320,10 @@
       <workItem from="1589762218538" duration="3286000" />
       <workItem from="1589767978957" duration="260000" />
       <workItem from="1589768276009" duration="3720000" />
-      <workItem from="1589779993071" duration="9347000" />
+      <workItem from="1589779993071" duration="17607000" />
+      <workItem from="1590046203991" duration="418000" />
+      <workItem from="1590047154643" duration="1209000" />
+      <workItem from="1590048672382" duration="2147000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件">
       <created>1588174399008</created>
@@ -281,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588174514394</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="已经编写到可集成eureka集群部分，即将更新至客户端集群">
+      <created>1589795654029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589795654029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +368,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="更新README文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新README文件" />
+    <MESSAGE value="已经编写到可集成eureka集群部分，即将更新至客户端集群" />
+    <option name="LAST_COMMIT_MESSAGE" value="已经编写到可集成eureka集群部分，即将更新至客户端集群" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="192.168.56.3" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+    <option name="enabled" value="true" />
   </component>
 </project>

@@ -29,3 +29,7 @@ eureka:
     serviceUrl:
       ## defaultZone: http://localhost:7001/eureka  # 单击版本
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka #集群注册
+
+  instance:
+    instance-id: payment8001 #修改服务名称 ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true # 访问路径显示IP

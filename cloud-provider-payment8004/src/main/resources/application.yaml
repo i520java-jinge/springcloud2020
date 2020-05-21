@@ -1,0 +1,26 @@
+
+server:
+  port: 8004
+
+spring:
+  application:
+    name: cloud-payment-service
+
+  datasource:
+    # 当前数据源操作类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    # mysql驱动类
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cloud2020?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  cloud:
+    zookeeper:
+      connect-string: 192.168.56.3:2181
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.i520java.springcloud.entities
+
+
+
