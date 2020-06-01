@@ -5,8 +5,6 @@ spring:
   application:
     name: cloud-order-service
 
-
-
 eureka:
   client:
     register-with-eureka: true #是否将自己本身注册到注册中心中

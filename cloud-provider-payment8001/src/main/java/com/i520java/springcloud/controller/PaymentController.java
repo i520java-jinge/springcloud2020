@@ -144,6 +144,24 @@ public class PaymentController {
     }
 
 
+    /**
+     * 演示超时方法
+     * @Author 金格[JIN_GE]
+     * @Date 16:59 2020/5/30
+     * @Param
+     * @return
+     * @description 此模板由【Jin ge】提供!
+     *              更多教程请访问 https://www.520java.com 交流学习
+     **/
+    @GetMapping("/timeout/ex")
+    public  String  timeoutEx(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return  "这是"+serverPort+"返回结果！";
+    }
 
 
 }

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.i520java.springcloud.dao.PaymentDao">
+   
+    <!-- 此模板由【Jin ge】提供!
+        更多教程请访问 https://www.520java.com 交流学习
+    -->
+    
+    <resultMap type="com.i520java.springcloud.entity.Payment" id="PaymentMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="serial" column="serial" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="selectById" resultMap="PaymentMap">
+        select
+          id, serial
+        from  payment
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="selectAllByLimit" resultMap="PaymentMap">
+        select
+          id, serial
+        from  payment
+        limit #{startIndex}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="selectAll" resultMap="PaymentMap">
+        select
+          id, serial
+        from payment
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="serial != null and serial != ''">
+                and serial = #{serial}
+            </if>
+        </where>
+    </select>
+    
+    
+     <select id="selectByMapParam" resultMap="PaymentMap">
+        select
+          id, serial
+        from payment
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="serial != null and serial != ''">
+                and serial = #{serial}
+            </if>
+        </where>
+        <if test="startIndex!=null and  limit!=null ">
+            limit #{startIndex},#{limit}
+        </if>
+         <if test="startIndex==null and  limit!=null ">
+            limit  #{limit}
+        </if>
+    </select>
+    
+    
+     <select id="selectCountByMapParam" resultType="int">
+        select count(0)
+        from payment
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="serial != null and serial != ''">
+                and serial = #{serial}
+            </if>
+        </where>
+        <if test="startIndex!=null and  limit!=null ">
+            limit #{startIndex},#{limit}
+        </if>
+         <if test="startIndex==null and  limit!=null ">
+            limit  #{limit}
+        </if>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into payment(serial)
+        values (#{serial})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update payment
+        <set>
+            <if test="serial != null and serial != ''">
+                serial = #{serial},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from payment where id = #{id}
+    </delete>
+
+</mapper>

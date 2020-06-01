@@ -1,0 +1,27 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-order-hystrix-service
+
+eureka:
+  client:
+    register-with-eureka: true #是否将自己本身注册到注册中心中
+    fetch-registry: true  #false表示当前本身就是注册中心 职责是维护实例 不做检索服务
+    serviceUrl:
+      #defaultZone: http://localhost:7001/eureka #单机方式
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka #集群注册
+
+
+ribbon:
+  ReadTimeout: 5000 #//处理请求的超时时间，默认为1秒
+  ConnectTimeout: 5000 #连接建立的超时时长，默认1秒
+
+logging:
+  level:
+    # feign日志以什么级别监控哪个接口
+    com.i520java.springcloud.service.PaymentFeignService: debug
+feign:
+  hystrix:
+    enabled: true

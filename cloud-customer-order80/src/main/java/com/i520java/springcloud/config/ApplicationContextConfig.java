@@ -8,6 +8,8 @@ package com.i520java.springcloud.config;/**
  * @since JDK 1.8
  */
 
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RoundRobinRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -38,6 +40,21 @@ public class ApplicationContextConfig {
      @LoadBalanced  //默认的负载均衡
      public RestTemplate  getRestTemplate(){
          return   new RestTemplate();
+     }
+
+
+     /**
+      * 更换负载均衡算法
+      * @Author 金格[JIN_GE]
+      * @Date 16:22 2020/5/23
+      * @Param
+      * @return
+      * @description 此模板由【Jin ge】提供!
+      *              更多教程请访问 https://www.520java.com 交流学习
+      **/
+     @Bean
+     public IRule myRule(){
+          return new RoundRobinRule(); //随机
      }
 
 }

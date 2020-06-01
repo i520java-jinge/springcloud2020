@@ -13,6 +13,7 @@
 
     <dependencies>
 
+
         <!--eureka client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
