@@ -2,106 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7142ebf-5f48-496e-9a8d-2ba36d418a2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/i520java/springcloud/util/I520JavaBase64Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/i520java/springcloud/util/I520JavaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/cloud-customer-order80.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/src/main/java/com/i520java/springcloud/ConsulOrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/src/main/java/com/i520java/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/src/main/java/com/i520java/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/target/classes/META-INF/cloud-customer-order80.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/target/classes/META-INF/cloud-customer-zkorder80.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/target/classes/com/i520java/springcloud/OrderMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/target/classes/com/i520java/springcloud/ZkOrderMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/target/classes/com/i520java/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-consulorder80/target/classes/com/i520java/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/cloud-customer-feign-order80.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/src/main/java/com/i520java/springcloud/FeignOrderHystrixMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/src/main/java/com/i520java/springcloud/config/OpenFeignLogConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/src/main/java/com/i520java/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/src/main/java/com/i520java/springcloud/service/PaymentFeignForBackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/src/main/java/com/i520java/springcloud/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/target/classes/com/i520java/springcloud/config/OpenFeignLogConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/target/classes/com/i520java/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-hystrix-order80/target/classes/com/i520java/springcloud/service/PaymentFeignService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/cloud-customer-feign-order80.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/src/main/java/com/i520java/springcloud/FeignOrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/src/main/java/com/i520java/springcloud/config/OpenFeignLogConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/src/main/java/com/i520java/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/src/main/java/com/i520java/springcloud/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/target/classes/META-INF/cloud-customer-order80.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-feign-order80/target/classes/com/i520java/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-hystrix-dashboard9001/cloud-customer-hystrix-dashboard9001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-hystrix-dashboard9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-hystrix-dashboard9001/src/main/java/com/i520java/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-hystrix-dashboard9001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/rule/I520JavaTestRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/rule/MySelfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/i520java/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/i520java/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/i520java/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/i520java/springcloud/i520java.util/I520JavaBase64Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/i520java/springcloud/i520java.util/I520JavaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/i520java/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/i520java/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/i520java/springcloud/PamentMain8001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/i520java/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/i520java/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/i520java/springcloud/i520java/util/I520JavaBase64Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/i520java/springcloud/i520java/util/I520JavaPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/i520java/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/i520java/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/mapper/PaymentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/java/com/i520java/springcloud/PaymentConsulMain8006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/java/com/i520java/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/java/com/i520java/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/java/com/i520java/springcloud/i520java.util/I520JavaBase64Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/java/com/i520java/springcloud/i520java.util/I520JavaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/java/com/i520java/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/java/com/i520java/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/META-INF/cloud-provider-payment8004.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/com/i520java/springcloud/PamentMain8004.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/com/i520java/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/com/i520java/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/com/i520java/springcloud/i520java/util/I520JavaBase64Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/com/i520java/springcloud/i520java/util/I520JavaPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/com/i520java/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/com/i520java/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-consul8006/target/classes/mapper/PaymentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center334/cloud-config-center334.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center334/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center334/src/main/java/com/i520java/cloud/ConfigCenter3344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center334/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/i520java/cloud/ConfigClientMain3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/i520java/cloud/controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/cloud/gateway/GateWayMain9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/cloud/gateway/filter/ParamFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/OrderMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/java/com/i520java/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/target/classes/com/i520java/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/target/classes/com/i520java/springcloud/OrderMain80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-zkorder80/src/main/java/com/i520java/springcloud/ZkOrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-zkorder80/src/main/java/com/i520java/springcloud/ZkOrderMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/i520java/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/i520java/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/i520java/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/i520java/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/i520java/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/i520java/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/i520java/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/i520java/springcloud/util/I520JavaBase64Util.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -245,7 +163,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentHystrixMain8001">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
+    <configuration name="ConfigCenter3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-center334" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.i520java.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.cloud.ConfigCenter3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.i520java.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.cloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsulOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-customer-consulorder80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.springcloud.ConsulOrderMain80" />
@@ -283,6 +227,13 @@
     <configuration name="FeignOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-customer-feign-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.springcloud.FeignOrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.gateway.GateWayMain9527" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -357,6 +308,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientMain3355" />
+        <item itemvalue="Spring Boot.ConfigCenter3344" />
         <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
         <item itemvalue="Spring Boot.FeignOrderHystrixMain80" />
         <item itemvalue="Spring Boot.PamentMain8004" />
@@ -366,7 +319,7 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.25420016" />
+        <option name="contentProportion" value="0.26661798" />
         <treeState>
           <expand>
             <path>
@@ -405,7 +358,7 @@
       <workItem from="1590048672382" duration="5097000" />
       <workItem from="1590132326432" duration="1402000" />
       <workItem from="1590196839946" duration="1396000" />
-      <workItem from="1590198248710" duration="38847000" />
+      <workItem from="1590198248710" duration="54765000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件">
       <created>1588174399008</created>
@@ -435,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590055485972</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="已经编写到hystrix熔断">
+      <created>1591005375363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591005375363</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +419,19 @@
     <MESSAGE value="更新README文件" />
     <MESSAGE value="已经编写到可集成eureka集群部分，即将更新至客户端集群" />
     <MESSAGE value="已经编写到可集成zookeeper单机版部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="已经编写到可集成zookeeper单机版部分" />
+    <MESSAGE value="已经编写到hystrix熔断" />
+    <option name="LAST_COMMIT_MESSAGE" value="已经编写到hystrix熔断" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/maven/repository/org/springframework/cloud/spring-cloud-gateway-core/2.2.2.RELEASE/spring-cloud-gateway-core-2.2.2.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="192.168.56.3" />

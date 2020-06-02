@@ -11,6 +11,7 @@
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-api-commons" />
+        <module name="cloud-config-center334" />
         <module name="cloud-customer-feign-hystrix-order80" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-provider-payment8002" />
@@ -21,6 +22,8 @@
         <module name="cloud-customer-zkorder80" />
         <module name="cloud-customer-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="cloud-config-client3355" />
       </profile>
     </annotationProcessing>
   </component>

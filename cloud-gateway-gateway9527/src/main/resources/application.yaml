@@ -1,0 +1,34 @@
+server:
+  port: 9527
+
+
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启动态路由
+      routes:
+        - id: payment8001_route  #路由id自定义 要求唯一
+          #uri: http://127.0.0.1:8001 #匹配路由的服务地址
+          uri: lb://CLOUD-PAYMENT-SERVICE
+          predicates:
+            - Path=/payment/**   #断言 路径匹配
+        - id: payment8002_route  #路由id自定义 要求唯一
+          #uri: http://127.0.0.1:8002 #匹配路由的服务地址
+          uri: lb://CLOUD-PAYMENT-SERVICE
+          predicates:
+            - Path=/payment/**   #断言 路径匹配
+eureka:
+  client:
+    register-with-eureka: true #是否将自己本身注册到注册中心中
+    fetch-registry: true  #false表示当前本身就是注册中心 职责是维护实例 不做检索服务
+    serviceUrl:
+      ## defaultZone: http://localhost:7001/eureka  # 单击版本
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka #集群注册
+
+  instance:
+    instance-id: cloud-gateway-service:${server.port} #修改服务名称 ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true # 访问路径显示IP
