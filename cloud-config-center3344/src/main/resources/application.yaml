@@ -13,6 +13,12 @@ spring:
           search-paths:
            - springcloud-config
       label: master
+  #rabbitmq配置
+  rabbitmq:
+    port: 5672
+    host: 192.168.56.3
+    username: guest
+    password: guest
 
 
 eureka:
@@ -26,3 +32,12 @@ eureka:
   instance:
     instance-id: cloud-config-center334 #修改服务名称 ${spring.cloud.client.ip-address}:${server.port}
     prefer-ip-address: true # 访问路径显示IP
+
+#rabbitmq配置 暴露刷新配置端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+
+

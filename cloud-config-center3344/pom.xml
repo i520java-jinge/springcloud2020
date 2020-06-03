@@ -9,9 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-config-center334</artifactId>
+    <artifactId>cloud-config-center3344</artifactId>
 
     <dependencies>
+
+        <!--RabbitMQ-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
 
         <!--配置中心-->
         <dependency>

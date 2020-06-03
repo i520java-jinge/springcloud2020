@@ -26,8 +26,12 @@
       <module>cloud-eureka-server7002</module>
       <module>cloud-customer-hystrix-dashboard9001</module>
       <module>cloud-gateway-gateway9527</module>
-      <module>cloud-config-center334</module>
+      <module>cloud-config-center3344</module>
       <module>cloud-config-client3355</module>
+      <module>cloud-config-client3366</module>
+        <module>cloud-stream-rabbitmq-provider8801</module>
+        <module>cloud-stream-rabbitmq-customer8802</module>
+      <module>cloud-stream-rabbitmq-customer8803</module>
 
     </modules>
     <!--<dependencies>

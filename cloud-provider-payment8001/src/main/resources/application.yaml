@@ -5,6 +5,11 @@ server:
 spring:
   application:
     name: cloud-payment-service
+  zipkin:
+    base-url: http://localhost:9411  #zipkin服务端的地址
+  sleuth:
+    sampler:
+    probability: 1.0 #采样比例，设置为1.0时代表全部强求都需要采样
 
   datasource:
     # 当前数据源操作类型

@@ -1,0 +1,64 @@
+#激活dev环境
+spring:
+  profiles:
+    active: dev
+
+#开发环境
+---
+server:
+  port: 3366
+spring:
+  profiles: dev
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      label: master
+      name: application
+      profile: dev
+      uri: http://config-3344.com:3344
+  #rabbitmq配置
+  rabbitmq:
+    port: 5672
+    host: 192.168.56.3
+    username: guest
+    password: guest
+
+# 暴露监控接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+# 生产环境
+---
+server:
+  port: 3366
+
+spring:
+  profiles: prod
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      label: master
+      name: application
+      profile: prod
+      uri: http://config-3344.com:3344
+
+# 测试环境
+---
+server:
+  port: 3366
+
+spring:
+  profiles: test
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      label: master
+      name: application
+      profile: test
+      uri: http://config-3344.com:3344
