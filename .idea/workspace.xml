@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7142ebf-5f48-496e-9a8d-2ba36d418a2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/i520java/cloud/ConfigClientMain3366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/i520java/cloud/controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/target/classes/META-INF/cloud-config-client3355.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/target/classes/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/target/classes/com/i520java/cloud/controller/ConfigController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8802/cloud-stream-rabbitmq-customer8802.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8802/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8802/src/main/java/com/i520java/cloud/StreamRabbitCustomer8802.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8802/src/main/java/com/i520java/cloud/controller/MessagesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8802/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8803/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8803/src/main/java/com/i520java/cloud/StreamRabbitCustomer8803.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8803/src/main/java/com/i520java/cloud/controller/MessagesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8803/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8803/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8803/target/classes/com/i520java/cloud/StreamRabbitCustomer8802.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-customer8803/target/classes/com/i520java/cloud/controller/MessagesController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/i520java/cloud/StreamRabbitProvider8801.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/i520java/cloud/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/i520java/cloud/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/i520java/cloud/service/impl/MessageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center334/cloud-config-center334.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center334/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center334/src/main/java/com/i520java/cloud/ConfigCenter3344.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/java/com/i520java/cloud/ConfigCenter3344.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center334/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-customer-order80/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-customer-order80/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -456,7 +410,7 @@
       <workItem from="1590132326432" duration="1402000" />
       <workItem from="1590196839946" duration="1396000" />
       <workItem from="1590198248710" duration="55959000" />
-      <workItem from="1591165810760" duration="12840000" />
+      <workItem from="1591165810760" duration="12954000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件">
       <created>1588174399008</created>
@@ -507,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591109825768</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="已经编写到sleuth-zipkin链路追踪">
+      <created>1591198594599</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591198594600</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +495,8 @@
     <MESSAGE value="已经编写到hystrix熔断" />
     <MESSAGE value="已经编写到config配置中心熔断" />
     <MESSAGE value="已经编写到config配置中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="已经编写到config配置中心" />
+    <MESSAGE value="已经编写到sleuth-zipkin链路追踪" />
+    <option name="LAST_COMMIT_MESSAGE" value="已经编写到sleuth-zipkin链路追踪" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

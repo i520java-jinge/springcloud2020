@@ -43,6 +43,12 @@ spring-config配置中心 https://github.com/i520java-jinge/springcloud-config
     文档教程: https://www.520java.com/f/article/25.html
 - [config配置中心]-10
     文档教程: https://www.520java.com/f/article/26.html
+- [Bus消息总线]-11
+    文档教程: https://www.520java.com/f/article/27.html
+- [stream消息驱动]-12
+    文档教程: https://www.520java.com/f/article/28.html    
+- [sleuth-zipkin链路]-13
+    文档教程: https://www.520java.com/f/article/29.html
 
 代码持续更新中....
 
