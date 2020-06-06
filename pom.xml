@@ -7,43 +7,39 @@
   <groupId>com.i520java</groupId>
   <artifactId>cloud2020</artifactId>
   <version>1.0-SNAPSHOT</version>
-    <modules>
-      <module>cloud-provider-payment8001</module>
-      <module>cloud-provider-payment8002</module>
-      <module>cloud-provider-payment8004</module>
-      <module>cloud-provider-payment-consul8006</module>
-      <module>cloud-provider-hystrix-payment8001</module>
+  <modules>
+    <module>cloud-provider-payment8001</module>
+    <module>cloud-provider-payment8002</module>
+    <module>cloud-provider-payment8004</module>
+    <module>cloud-provider-payment-consul8006</module>
+    <module>cloud-provider-hystrix-payment8001</module>
 
-      <module>cloud-customer-order80</module>
-      <module>cloud-customer-zkorder80</module>
-      <module>cloud-customer-consulorder80</module>
-      <module>cloud-customer-feign-order80</module>
-      <module>cloud-customer-feign-hystrix-order80</module>
+    <module>cloud-customer-order80</module>
+    <module>cloud-customer-zkorder80</module>
+    <module>cloud-customer-consulorder80</module>
+    <module>cloud-customer-feign-order80</module>
+    <module>cloud-customer-feign-hystrix-order80</module>
 
-      <module>cloud-api-commons</module>
+    <module>cloud-api-commons</module>
 
-      <module>cloud-eureka-server7001</module>
-      <module>cloud-eureka-server7002</module>
-      <module>cloud-customer-hystrix-dashboard9001</module>
-      <module>cloud-gateway-gateway9527</module>
-      <module>cloud-config-center3344</module>
-      <module>cloud-config-client3355</module>
-      <module>cloud-config-client3366</module>
-        <module>cloud-stream-rabbitmq-provider8801</module>
-        <module>cloud-stream-rabbitmq-customer8802</module>
-      <module>cloud-stream-rabbitmq-customer8803</module>
+    <module>cloud-eureka-server7001</module>
+    <module>cloud-eureka-server7002</module>
+    <module>cloud-customer-hystrix-dashboard9001</module>
+    <module>cloud-gateway-gateway9527</module>
+    <module>cloud-config-center3344</module>
+    <module>cloud-config-client3355</module>
+    <module>cloud-config-client3366</module>
+    <module>cloud-stream-rabbitmq-provider8801</module>
+    <module>cloud-stream-rabbitmq-customer8802</module>
+    <module>cloud-stream-rabbitmq-customer8803</module>
+    <module>cloudAlibaba-provider-payment9001</module>
+      <module>cloudAlibaba-provider-payment9002</module>
+    <module>cloudAlibaba-customer-Order83</module>
+      <module>cloudAlibaba-config-nacos-center3377</module>
+      <module>cloudAlibaba-sentinel-service8401</module>
 
-    </modules>
-    <!--<dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
-        </dependency>
-      <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-web</artifactId>
-      </dependency>
-    </dependencies>-->
+  </modules>
+
     <packaging>pom</packaging>
 
   <!-- 统一管理jar包版本 -->
@@ -75,6 +71,17 @@
   <!-- 子模块继承之后，提供作用：锁定版本 + 子module不用谢groupId和version -->
   <dependencyManagement>
     <dependencies>
+
+      <!-- spring cloud Alibaba -->
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2.1.0.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+
       <!--spring boot 2.2.2-->
       <dependency>
         <groupId>org.springframework.boot</groupId>

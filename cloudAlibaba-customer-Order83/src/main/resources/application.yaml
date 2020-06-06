@@ -1,0 +1,16 @@
+server:
+  port: 83
+
+
+spring:
+  application:
+    name: nacos-customer-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+## 自定义外部化配置
+miscserver-urls:
+  nacos-provider-payment: http://nacos-provider-payment
+

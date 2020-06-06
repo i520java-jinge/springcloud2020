@@ -16,13 +16,9 @@ SpringCloud Hoxton+SpringCloud alibaba新版本教程
 ![](https://www.520java.cn/81b651f7fcbb7ab9c97895b20f93db6c_jinBlog_20200518_cloudupdate-01.png)
 
 跟随视频敲的cloud2020代码：https://github.com/i520java-jinge/springcloud2020
-
 spring-config配置中心 https://github.com/i520java-jinge/springcloud-config
-
 我自己编写的文档教程，并且衍生补充很多内容，更佳细致化、且有截图图演示
-
 代码更新进度
-
 - [前期准备]-01  
     文档教程: https://www.520java.com/f/article/17.html
 - [eureka集群]-02  
@@ -49,7 +45,6 @@ spring-config配置中心 https://github.com/i520java-jinge/springcloud-config
     文档教程: https://www.520java.com/f/article/28.html    
 - [sleuth-zipkin链路]-13
     文档教程: https://www.520java.com/f/article/29.html
-
 代码持续更新中....
 
 ## 具体教程请参考 https://www.520java.com

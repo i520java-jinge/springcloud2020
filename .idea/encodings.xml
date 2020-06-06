@@ -6,7 +6,6 @@
     <file url="file://$PROJECT_DIR$/cloud-config-center3344" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config-client3355" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config-client3366" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-config-client3366" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-customer-consulorder80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-customer-feign-hystrix-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-customer-feign-order80" charset="UTF-8" />
@@ -25,5 +24,10 @@
     <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-customer8802" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-customer8803" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudAlibaba-customer-Order83" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudAlibaba-provider-payment9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudAlibaba-provider-payment9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudAlibaba-sentinel-service8401" charset="UTF-8" />
   </component>
 </project>
