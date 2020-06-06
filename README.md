@@ -45,6 +45,10 @@ spring-config配置中心 https://github.com/i520java-jinge/springcloud-config
     文档教程: https://www.520java.com/f/article/28.html    
 - [sleuth-zipkin链路]-13
     文档教程: https://www.520java.com/f/article/29.html
+- [alibaba nacos集群]-14
+    文档教程: https://www.520java.com/f/article/30.html
+- [alibaba sentinel]-15
+    文档教程: https://www.520java.com/f/article/31.html        
 代码持续更新中....
 
 ## 具体教程请参考 https://www.520java.com

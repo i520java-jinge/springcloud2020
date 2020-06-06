@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7142ebf-5f48-496e-9a8d-2ba36d418a2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377/cloudAlibaba-config-nacos-center3377.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377/src/main/java/com/i520java/alibaba/AlibabaNacosConfigCenter3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377/src/main/java/com/i520java/alibaba/controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order83/cloudAlibaba-customer-Order83.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order83/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order83/src/main/java/com/i520java/alibaba/AlibabaCustomerOrder83.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order83/src/main/java/com/i520java/alibaba/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order83/src/main/java/com/i520java/alibaba/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order83/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9001/cloudAlibaba-provider-payment9001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9001/src/main/java/com/i520java/alibaba/AlibabaProviderPayment9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9001/src/main/java/com/i520java/alibaba/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9002/cloudAlibaba-provider-payment9002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9002/src/main/java/com/i520java/alibaba/AlibabaProviderPayment9002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9002/src/main/java/com/i520java/alibaba/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9002/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/cloudAlibaba-sentinel-service8401.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/src/main/java/com/i520java/sentinel/SentinelServer8401.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/src/main/java/com/i520java/sentinel/controller/SentinelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -438,7 +408,7 @@
       <workItem from="1591165810760" duration="13828000" />
       <workItem from="1591259070722" duration="578000" />
       <workItem from="1591263833470" duration="10327000" />
-      <workItem from="1591334419729" duration="16070000" />
+      <workItem from="1591334419729" duration="16623000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件">
       <created>1588174399008</created>
@@ -503,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591198693135</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="已经编写到sentinel热点限流 sentinel未完结">
+      <created>1591460625924</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591460625924</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +508,8 @@
     <MESSAGE value="已经编写到config配置中心熔断" />
     <MESSAGE value="已经编写到config配置中心" />
     <MESSAGE value="已经编写到sleuth-zipkin链路追踪" />
-    <option name="LAST_COMMIT_MESSAGE" value="已经编写到sleuth-zipkin链路追踪" />
+    <MESSAGE value="已经编写到sentinel热点限流 sentinel未完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="已经编写到sentinel热点限流 sentinel未完结" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
