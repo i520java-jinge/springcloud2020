@@ -1,0 +1,21 @@
+server:
+  port: 84
+
+
+spring:
+  application:
+    name: nacos-customer-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080  #控制台地址
+        port: 8719  #链路端口  如果端口被占用 每次+1 一直到可用端口
+## 自定义外部化配置
+miscserver-urls:
+  nacos-provider-payment: http://nacos-provider-payment
+feign:
+  hystrix:
+    enabled: true  # 开启feign的支持

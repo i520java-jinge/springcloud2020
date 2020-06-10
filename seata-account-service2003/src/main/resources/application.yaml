@@ -1,0 +1,45 @@
+server:
+  port: 2003
+
+spring:
+  application:
+    name: seata-account-service
+  datasource:
+    # 当前数据源操作类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    # mysql驱动类
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/seata_account?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+
+  cloud:
+    alibaba:
+      seata:
+        enableAutoDataSourceProxy: false
+        tx-service-group: seata_test_tx_group  # 事务组名称
+        registry:
+          file:
+            #因为seata版本驼峰参数映射有问题导致，seata的zk配置参数设置不上导致异常
+            name: registry.conf
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+feign:
+  hystrix:
+    enabled: true  # 开启feign的支持
+
+logging:
+  level:
+    io:
+      seata: info
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.i520java.seata.entity
+
+
+
+

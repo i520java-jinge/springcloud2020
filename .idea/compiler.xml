@@ -7,36 +7,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloudAlibaba-sentinel-service8401" />
-        <module name="cloudAlibaba-config-nacos-center3377" />
-        <module name="cloud-config-client3366" />
-        <module name="cloud-eureka-server7002" />
-        <module name="cloud-eureka-server7001" />
-        <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-api-commons" />
-        <module name="cloud-customer-feign-hystrix-order80" />
+        <module name="cloudAlibaba-provider-payment9004" />
+        <module name="cloudAlibaba-provider-payment9003" />
+        <module name="cloud-customer-consulorder80" />
+        <module name="cloudAlibaba-provider-payment9001" />
         <module name="cloud-provider-payment8004" />
-        <module name="cloud-provider-payment8002" />
+        <module name="cloud-config-client3366" />
         <module name="cloud-provider-payment8001" />
-        <module name="cloud-customer-feign-order80" />
-        <module name="cloud-customer-hystrix-dashboard9001" />
-        <module name="cloud-stream-rabbitmq-provider8801" />
-        <module name="cloud-provider-payment-consul8006" />
-        <module name="cloud-gateway-gateway9527" />
-        <module name="cloud-customer-zkorder80" />
-        <module name="cloudAlibaba-customer-Order83" />
-        <module name="cloud-stream-rabbitmq-customer8803" />
+        <module name="cloud-config-client3355" />
+        <module name="seata-storage-service2002" />
         <module name="cloud-customer-order80" />
         <module name="cloudAlibaba-provider-payment9002" />
-        <module name="cloudAlibaba-provider-payment9001" />
+        <module name="cloud-provider-payment-consul8006" />
+        <module name="cloudAlibaba-customer-Order84" />
+        <module name="cloud-customer-feign-hystrix-order80" />
+        <module name="cloud-customer-hystrix-dashboard9001" />
+        <module name="cloudAlibaba-config-nacos-center3377" />
+        <module name="cloud-customer-feign-order80" />
         <module name="cloud-config-center3344" />
-        <module name="cloud-customer-consulorder80" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="cloud-provider-payment8002" />
+        <module name="seata-order-service2001" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloud-stream-rabbitmq-customer8803" />
         <module name="cloud-stream-rabbitmq-customer8802" />
-        <module name="cloud-config-client3355" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloudAlibaba-sentinel-service8401" />
+        <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-customer-zkorder80" />
+        <module name="cloudAlibaba-customer-Order83" />
+        <module name="seata-account-service2003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-provide-consul-payment8006" target="1.8" />
+      <module name="seata-stroage-service2002" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

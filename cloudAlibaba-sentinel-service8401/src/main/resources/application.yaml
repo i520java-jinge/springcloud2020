@@ -12,6 +12,16 @@ spring:
       transport:
         dashboard: localhost:8080  #控制台地址
         port: 8719  #链路端口  如果端口被占用 每次+1 一直到可用端口
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            dataId: cloudAlibaba-sentinel-service
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+
+
 
 #暴露监控端口
 management:

@@ -1,0 +1,23 @@
+server:
+  port: 9003
+
+
+spring:
+  application:
+    name: nacos-provider-payment
+  cloud:
+    nacos:
+      discovery:
+        #server-addr: 192.168.56.3:1111 #nacos 集群
+        server-addr: localhost:8848  #单机版
+
+    sentinel:
+      transport:
+        dashboard: localhost:8080  #控制台地址
+        port: 8719  #链路端口  如果端口被占用 每次+1 一直到可用端口
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,4 +1,5 @@
 SpringCloud Hoxton+SpringCloud alibaba新版本教程
+教程更新完结
 
 由于很多spring cloud的技术栈都在新的一年中停止的更新所以必然有新的技术代替，因此我们必须要学习新的技术。这里不会对一些基本的基础知识进行详细的介绍。主要针对映有编程基础的人员。
 - 2018年7月，人家官方就突然宣布Eureka 2.x停止开源计划了.Eureka停用,可以使用zk作为服务注册中心
@@ -15,9 +16,11 @@ SpringCloud Hoxton+SpringCloud alibaba新版本教程
 
 ![](https://www.520java.cn/81b651f7fcbb7ab9c97895b20f93db6c_jinBlog_20200518_cloudupdate-01.png)
 
-跟随视频敲的cloud2020代码：https://github.com/i520java-jinge/springcloud2020
+示例代码 cloud2020代码：https://github.com/i520java-jinge/springcloud2020
 spring-config配置中心 https://github.com/i520java-jinge/springcloud-config
-我自己编写的文档教程，并且衍生补充很多内容，更佳细致化、且有截图图演示
+我自己编写的文档教程，并且衍生补充很多内容，更佳细致化、且有截图图演示；
+详细展开可知识点，已经记录的报错的异常和解决方案；
+
 代码更新进度
 - [前期准备]-01  
     文档教程: https://www.520java.com/f/article/17.html
@@ -48,7 +51,12 @@ spring-config配置中心 https://github.com/i520java-jinge/springcloud-config
 - [alibaba nacos集群]-14
     文档教程: https://www.520java.com/f/article/30.html
 - [alibaba sentinel]-15
-    文档教程: https://www.520java.com/f/article/31.html        
-代码持续更新中....
+    文档教程: https://www.520java.com/f/article/31.html   
+- [alibaba sentinel]-16
+    文档教程: https://www.520java.com/f/article/32.html
+- [seata分布式事务]-完结篇
+    文档教程: https://www.520java.com/f/article/33.html        
+         
+教程已经玩不更新完毕，喜欢的GitHub帮我点个 star  分享，帮我在www.i520java.com上留言谢谢
 
 ## 具体教程请参考 https://www.520java.com

@@ -2,8 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7142ebf-5f48-496e-9a8d-2ba36d418a2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/seata_account-t_account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/seata_order-t_order.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/seata_storage-t_storage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order84/cloudAlibaba-customer-Order84.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order84/src/main/java/com/i520java/alibaba/AlibabaCustomerOrder84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order84/src/main/java/com/i520java/alibaba/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order84/src/main/java/com/i520java/alibaba/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order84/src/main/java/com/i520java/alibaba/service/FeignPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order84/src/main/java/com/i520java/alibaba/service/imp/FeignPaymentServiceFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-customer-Order84/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9003/cloudAlibaba-provider-payment9003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9003/src/main/java/com/i520java/alibaba/AlibabaProviderPayment9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9003/src/main/java/com/i520java/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9003/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9004/cloudAlibaba-provider-payment9004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9004/src/main/java/com/i520java/alibaba/AlibabaProviderPayment9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9004/src/main/java/com/i520java/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9004/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9004/target/classes/META-INF/cloudAlibaba-provider-payment9003.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provider-payment9004/target/classes/com/i520java/alibaba/controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/src/main/java/com/i520java/sentinel/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/src/main/java/com/i520java/sentinel/controller/flowlimithander/MyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/i520java/seata/SeataAccountService2003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/i520java/seata/config/DataSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/i520java/seata/controller/TAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/i520java/seata/dao/TAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/i520java/seata/entity/TAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/i520java/seata/service/TAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/i520java/seata/service/impl/TAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/SeataOrderService2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/aop/WorkAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/config/DataSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/controller/GlobalExceptionsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/controller/TOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/dao/TOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/entity/TOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/service/FeignTAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/service/FeignTStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/service/TOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/service/impl/FeignTAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/service/impl/FeignTStorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/i520java/seata/service/impl/TOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/i520java/seata/SeataStorageService2002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/i520java/seata/config/DataSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/i520java/seata/controller/TStorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/i520java/seata/dao/TStorageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/i520java/seata/entity/TStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/i520java/seata/service/TStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/i520java/seata/service/impl/TStorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudAlibaba-sentinel-service8401/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,18 +103,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cloud2020" type="feb32156:DbDataSourceImpl" />
+        <item name="seata_account@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cloud2020" type="feb32156:DbDataSourceImpl" />
+        <item name="seata_account@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cloud2020" type="feb32156:DbDataSourceImpl" />
+        <item name="seata_account@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cloud2020: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="seata_account: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -47,6 +122,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -91,6 +167,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -99,7 +176,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/seata-order-service2001/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32415903" />
@@ -109,12 +186,17 @@
     <selection>jxr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.i520java.seata.controller" />
+      <recent name="com.i520java.seata.aop" />
+      <recent name="com.i520java.seata.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cloudAlibaba-config-nacos-center3377/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloudAlibaba-customer-Order83/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloudAlibaba-provider-payment9002/src/main/java" />
-      <recent name="$PROJECT_DIR$/cloudAlibaba-provider-payment9002/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/seata-order-service2001/src/main/resources" />
+      <recent name="$PROJECT_DIR$/seata-storage-service2002/src/main/resources" />
+      <recent name="$PROJECT_DIR$/seata-account-service2003/src/main/resources" />
+      <recent name="$PROJECT_DIR$/seata-account-service2003/src/main/java" />
+      <recent name="$PROJECT_DIR$/seata-stroage-service2002/src/main/java" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -148,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SentinelServer8401">
+  <component name="RunManager" selected="Spring Boot.SeataAccountService2003">
     <configuration name="AlibabaCustomerOrder83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudAlibaba-customer-Order83" />
       <extension name="coverage">
@@ -158,6 +240,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.alibaba.AlibabaCustomerOrder83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlibabaCustomerOrder84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudAlibaba-customer-Order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.i520java.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.alibaba.AlibabaCustomerOrder84" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,6 +280,20 @@
     <configuration name="AlibabaProviderPayment9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloudAlibaba-provider-payment9002" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.alibaba.AlibabaProviderPayment9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlibabaProviderPayment9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudAlibaba-provider-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.alibaba.AlibabaProviderPayment9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlibabaProviderPayment9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudAlibaba-provider-payment9004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.alibaba.AlibabaProviderPayment9004" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -301,6 +410,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeataAccountService2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-account-service2003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.seata.SeataAccountService2003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderService2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-order-service2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.seata.SeataOrderService2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStorageService2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-storage-service2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.seata.SeataStorageService2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SentinelServer8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudAlibaba-sentinel-service8401" />
       <extension name="coverage">
@@ -314,14 +444,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamRabbitCustomer8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamRabbitCustomer8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-customer8802" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.i520java.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.cloud.StreamRabbitCustomer8802" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -340,6 +464,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamRabbitProvider8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.cloud.StreamRabbitProvider8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZkOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-customer-zkorder80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.i520java.springcloud.ZkOrderMain80" />
@@ -350,32 +481,27 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SentinelServer8401" />
+        <item itemvalue="Spring Boot.AlibabaCustomerOrder84" />
         <item itemvalue="Spring Boot.AlibabaNacosConfigCenter3377" />
         <item itemvalue="Spring Boot.AlibabaCustomerOrder83" />
         <item itemvalue="Spring Boot.StreamRabbitCustomer8803" />
-        <item itemvalue="Spring Boot.StreamRabbitCustomer8802" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.19503286" />
+        <option name="contentProportion" value="0.27246165" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@54ca4bb9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c33f779d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@54ca4bb9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@db9e5d7b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@54ca4bb9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@329f6e58" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c33f779d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@cc87b36d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -408,7 +534,9 @@
       <workItem from="1591165810760" duration="13828000" />
       <workItem from="1591259070722" duration="578000" />
       <workItem from="1591263833470" duration="10327000" />
-      <workItem from="1591334419729" duration="16623000" />
+      <workItem from="1591334419729" duration="17004000" />
+      <workItem from="1591536257521" duration="7726000" />
+      <workItem from="1591585956495" duration="64429000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件">
       <created>1588174399008</created>
@@ -480,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591460625924</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="已经编写到sentinel热点限流 sentinel未完结">
+      <created>1591462031955</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591462031955</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
